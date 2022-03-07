@@ -26,3 +26,50 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+/* solution */
+
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer{
+  text-align: center;
+}
+
+.header{
+  font-weight: bold;
+ 
+}
+
+.main-content{
+  display: flex;
+  flex: 1 0 auto;
+}
+
+ul{
+  list-style: none;
+  padding: 0;
+  
+}
+
+li{
+  margin:10px;
+  
+}
+
+.card{
+  width:300px;
+  margin: 50px;
+}
+
+.cards{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  
+  
+}
