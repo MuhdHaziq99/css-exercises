@@ -26,19 +26,18 @@ input {
   margin-bottom: 16px;
 }
 
-
 /* solution */
 ul{
   list-style:none;
   padding: 0;
   display:flex;
+  gap:20px;
 }
 
 body{
   display:flex;
   flex-direction: column;
   justify-content: space-between;
-  
 }
 
 .content{
@@ -46,12 +45,21 @@ body{
   text-align: center;
 }
 
-.header{
+.header,.footer{
   display:flex;
   justify-content: space-between;
+  padding: 10px;
 }
 
 .footer{
-  display:flex;
-  justify-content: space-between;
+  background-color: #eeeeee;
+}
+
+button{
+  padding:10px;
+}
+
+a{
+  text-decoration: none;
+  color:black;
 }
