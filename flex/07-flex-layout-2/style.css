@@ -35,13 +35,25 @@ body{
   justify-content: space-between;
 }
 
+a{
+  text-decoration: none;
+  color:white;
+  font-size: 24px;
+}
+
 .footer{
   text-align: center;
+  display:flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .header{
-  font-weight: bold;
- 
+  font-weight: 900;
+  font-size: 32px;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
 }
 
 .main-content{
@@ -52,24 +64,27 @@ body{
 ul{
   list-style: none;
   padding: 0;
-  
+  margin:0;
 }
 
 li{
-  margin:10px;
-  
+  margin:0 0 16px 0;
+}
+
+.sidebar{
+  flex:1 0 auto;
+  padding:16px;
 }
 
 .card{
   width:300px;
-  margin: 50px;
+  margin: 16px;
+  padding: 16px;
 }
 
 .cards{
   display: flex;
-  justify-content: space-between;
+  justify-content:flex-start;
   flex-wrap: wrap;
-  align-items: flex-start;
-  
-  
+  padding:32px;
 }
